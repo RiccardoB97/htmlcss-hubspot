@@ -11,7 +11,7 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Common classes */
@@ -19,6 +19,12 @@ body{
 .container{
     width: 80%;
     margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+body a{
+    text-decoration: none;
 }
 
 .btn{
@@ -29,10 +35,6 @@ body{
 /*********
 Header 
 *********/
-#site_header{
-    height: 770px;
-    background-color: green;
-}
 
 /* Top navbar */
 
@@ -72,7 +74,6 @@ Header
 }
 
 .nav_col_1 a{
-    text-decoration: none;
     color: #33475B;
     font-size: 14px;
     margin-left: 15px;
@@ -91,7 +92,6 @@ Header
 
 .nav_col_2 a{
     line-height: 80px;
-    text-decoration: none;
 }
 
 .btn_empty{
@@ -153,7 +153,6 @@ Header
 }
 
 .bot_nav_col_2 a{
-    text-decoration: none;
     color: #33475B;
     font-size: 14px;
 }
@@ -161,6 +160,47 @@ Header
 .bot_nav_col_2 a, .bot_nav_col_2>form select{
     padding: 0 15px;
 }
+
+/* Jumbotron */
+
+.jumbotron{
+    height: 608px;
+    background-image: url(../assets/img/jumbotron.png);
+    background-position: 50% 0%;
+    border-bottom: 2px solid #33475B;
+}
+
+
+.hero_text{
+    width: 50%;
+    position: absolute;
+    top: 60px;
+}
+
+.hero_text h1{
+    font-size: 2.7rem;
+    color: #33475B;
+}
+
+.hero_text p{
+    margin: 50px 0;
+    color: #33475B;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.hero_btn_full{
+    background-color: #FE775A;
+    color: white;
+    padding: 20px 40px;
+}
+
+.hero_btn_full:hover{
+    background-color: #F4F9FD;
+    color: #FE775A;
+    border: 1px solid #FE775A;
+}
+
 /*********
 Main 
 *********/
