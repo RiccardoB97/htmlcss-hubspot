@@ -9,3 +9,160 @@
     display: table;
     clear: both;
 }
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Common classes */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.btn{
+    border-radius: 5px;
+}
+
+
+/*********
+Header 
+*********/
+#site_header{
+    height: 770px;
+    background-color: green;
+}
+
+/* Top navbar */
+
+.top_nav, nav{
+    height: 80px;
+    background-color: #F4F9FD;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.globe svg path{
+    fill: #33475B;
+}
+
+.nav_col_1, .nav_col_2{
+    float: left;
+    width: 50%;
+}
+
+/* Left side top navbar */
+.nav_col_1{
+    text-align: left;
+    color: #33475B;
+}
+
+
+.nav_col_1>form{
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 15px;
+}
+
+.nav_col_1>form select{
+    border: none;
+    background-color: #F4F9FD;
+    color: #33475B;
+    width: 65px;
+}
+
+.nav_col_1 a{
+    text-decoration: none;
+    color: #33475B;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+
+/* Right side top navbar */
+.nav_col_2{
+    text-align: right;
+}
+
+.search{
+    height: 15px;
+    vertical-align: middle;
+}
+
+.nav_col_2 a{
+    line-height: 80px;
+    text-decoration: none;
+}
+
+.btn_empty{
+    border: 1px solid #FE775A;
+    color: #FE775A;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+.btn_full{
+    background-color: #FE775A;
+    color: white;
+    padding: 10px;
+}
+
+/* Bottom navbar */
+
+.bot_nav{
+    height: 80px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.bot_nav .logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bot_nav_col_1, .bot_nav_col_2{
+    width: 50%;
+    float: left;
+    height: 80px;
+}
+
+.bot_nav_col_2{
+    text-align: right;
+}
+.bot_nav_col_2>form{
+    display: inline-block;
+    line-height: 80px;
+}
+
+.bot_nav_col_2>form select{
+    border: none;
+    color: #33475B;
+}
+
+.bot_nav_col_2 a{
+    text-decoration: none;
+    color: #33475B;
+    font-size: 14px;
+}
+
+.bot_nav_col_2 a, .bot_nav_col_2>form select{
+    padding: 0 15px;
+}
+/*********
+Main 
+*********/
+#site_main{
+    height: 3010px;
+    background-color: red;
+}
+
+
+/*********
+Footer
+*********/
+#site_footer{
+    height: 620px;
+    background-color: yellow;
+}
