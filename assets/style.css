@@ -210,7 +210,7 @@ Main
     border-bottom: 3px solid #33475B;
 }
 
-/* cube section */
+/* Cube section */
 .cube{
     text-align: center;
 }
@@ -235,15 +235,19 @@ Main
     margin: auto;
 }
 
-/* large white card */
+/* Large white card */
 .large_card{
     background-color: white;
     height: 340px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px #ebf0f6;
 }
 
 .col_40, .col_60{
     float: left;
 }
+
+/* Left side large card */
 .col_40{
     width: 40%;
     text-align: center;
@@ -260,6 +264,8 @@ Main
     margin: 30px 0;
     padding: 15px 30px;
 }
+
+/* Right side large card */
 
 .col_60{
     width: 60%;
@@ -299,12 +305,23 @@ Main
 }
 
 .circle{
-    line-height: 16px;
     background-color: #FE775A;
     padding: 2px;
     border-radius: 50%;
     margin-right: 10px;
     color: white;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* Three columns */
+
+.three_col{
+    background-color: white;
+    height: 660px;
+    margin-top: 40px;
 }
 
 /*********
