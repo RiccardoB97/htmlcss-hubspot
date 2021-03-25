@@ -101,10 +101,21 @@ Header
     margin: 0 20px;
 }
 
+.btn_empty:hover{
+    color: white;
+    background-color: #FE775A;
+}
+
 .btn_full{
     background-color: #FE775A;
     color: white;
     padding: 10px;
+}
+
+.btn_full:hover{
+    background-color: #F4F9FD;
+    color: #FE775A;
+    border: 1px solid #FE775A;
 }
 
 /* Bottom navbar */
