@@ -12,6 +12,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    color: #33475B;
 }
 
 /* Common classes */
@@ -56,7 +57,6 @@ Header
 /* Left side top navbar */
 .nav_col_1{
     text-align: left;
-    color: #33475B;
 }
 
 
@@ -69,12 +69,10 @@ Header
 .nav_col_1>form select{
     border: none;
     background-color: #F4F9FD;
-    color: #33475B;
     width: 65px;
 }
 
 .nav_col_1 a{
-    color: #33475B;
     font-size: 14px;
     margin-left: 15px;
 }
@@ -123,7 +121,6 @@ Header
 .bot_nav{
     height: 80px;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
     position: relative;
 }
 
@@ -149,11 +146,9 @@ Header
 
 .bot_nav_col_2>form select{
     border: none;
-    color: #33475B;
 }
 
 .bot_nav_col_2 a{
-    color: #33475B;
     font-size: 14px;
 }
 
@@ -167,7 +162,7 @@ Header
     height: 608px;
     background-image: url(../assets/img/jumbotron.png);
     background-position: 50% 0%;
-    border-bottom: 2px solid #33475B;
+    border-bottom: 3px solid #33475B;
 }
 
 
@@ -179,12 +174,12 @@ Header
 
 .hero_text h1{
     font-size: 2.7rem;
-    color: #33475B;
+ 
 }
 
 .hero_text p{
     margin: 50px 0;
-    color: #33475B;
+
     font-size: 14px;
     line-height: 28px;
 }
@@ -205,14 +200,38 @@ Header
 Main 
 *********/
 #site_main{
-    height: 3010px;
-    background-color: red;
+    background-color: #F4F9FD;
 }
 
+.light_blue_bar{
+    height: 80px;
+    background-color:#AFEBE4 ;
+    border-bottom: 3px solid #33475B;
+}
+
+.cube{
+    text-align: center;
+}
+
+.cube_img{
+    height: 180px;
+    margin-top: 50px;
+}
+
+.cube p{
+    padding: 40px 0 ;
+    line-height: 28px;
+}
+
+.row{
+    width: 70%;
+    margin: auto;
+}
 
 /*********
 Footer
 *********/
+
 #site_footer{
     height: 620px;
     background-color: yellow;
