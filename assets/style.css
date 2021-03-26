@@ -327,7 +327,7 @@ Main
 
 .three_col{
     height: 660px;
-    margin-top: 40px;
+    margin: 45px 0
 }
 
 .col_3{
@@ -336,6 +336,7 @@ Main
     float: left;
 }
 
+/* Top half of 3 col */
 .top_half{
     height: 55%;
     text-align: center;
@@ -382,6 +383,8 @@ Main
     margin: 50px auto;
 }
 
+/* Bottom half of 3 col */
+
 .bot_half{
     height: 45%;
     text-align: center;
@@ -410,6 +413,29 @@ Main
     bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* Linear gradient bg */
+
+.linear{
+    background: linear-gradient(90deg, #00A8B9 0%, #04D0BD 100%);
+    height: 700px;
+}
+
+.row_3{
+    text-align: center;
+    color: white;
+}
+
+.top_row h2{
+    padding: 60px 60px 30px 60px;
+    font-size: 1.7rem;
+}
+
+.top_row p{
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 5px;
 }
 
 
