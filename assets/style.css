@@ -34,6 +34,35 @@ body a{
     border-radius: 5px;
 }
 
+.btn_empty{
+    border: 1px solid #FE775A;
+    color: #FE775A;
+    padding: 10px;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.btn_empty:hover{
+    color: white;
+    background-color: #FE775A;
+}
+
+.btn_full{
+    background-color: #FE775A;
+    color: white;
+    padding: 10px;
+}
+
+.btn_full:hover{
+    background-color: white;
+    color: #FE775A;
+    border: 1px solid #FE775A;
+}
+
+.fa-check-circle{
+    color: #FE775A;
+    margin-right: 10px;
+}
 
 /*********
 Header 
@@ -98,29 +127,6 @@ header form select{
     line-height: 80px;
 }
 
-.btn_empty{
-    border: 1px solid #FE775A;
-    color: #FE775A;
-    padding: 10px;
-    margin: 0 20px;
-}
-
-.btn_empty:hover{
-    color: white;
-    background-color: #FE775A;
-}
-
-.btn_full{
-    background-color: #FE775A;
-    color: white;
-    padding: 10px;
-}
-
-.btn_full:hover{
-    background-color: #F4F9FD;
-    color: #FE775A;
-    border: 1px solid #FE775A;
-}
 
 /* Bottom navbar */
 
@@ -331,9 +337,14 @@ Main
 }
 
 .top_half{
-            height: 55%;
-            text-align: center;
-        }
+    height: 55%;
+    text-align: center;
+}
+
+.top_half img{
+    height: 100px;
+    margin: 20px 0;
+}
 
 .col_3.left{
     background-color: white;
@@ -373,12 +384,34 @@ Main
 
 .bot_half{
     height: 45%;
+    text-align: center;
+    position: relative;
 }
 
-.top_half img{
-    height: 100px;
-    margin: 20px 0;
+.bot_half h4{
+    padding: 50px 0 30px 0;
 }
+
+.bot_half ul{
+    text-align: left;
+    padding: 0 40px;
+    font-size: 12px;
+}
+
+.bot_half ul li{
+    list-style: none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.bot_half .btn{
+    position: absolute;
+    padding: 20px 30px;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 
 /*********
 Footer
