@@ -427,6 +427,11 @@ Main
     color: white;
 }
 
+.row_3 img{
+    height: 30px;
+}
+/* Top row */
+
 .top_row h2{
     padding: 60px 60px 30px 60px;
     font-size: 1.7rem;
@@ -438,7 +443,49 @@ Main
     padding: 0 5px;
 }
 
+/* Mid and Bottom row */
 
+.square{
+    width: 25%;
+    height: 170px;
+    float: left;
+    padding-top: 25px;
+}
+
+.mid_row{
+    margin-top: 55px;
+}
+
+.mid_row .square.mid{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.mid_row .square.side{
+    border-bottom: 1px solid white;
+}
+
+.bot_row .square.mid{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}   
+
+.square h2{
+    font-size: 2.5rem;
+    margin-top: 15px;
+}
+.square h2::after{
+    content: " +";
+    font-size: 24px;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.square p{
+    font-size: 12px;
+    line-height: 50px;
+}
 /*********
 Footer
 *********/
