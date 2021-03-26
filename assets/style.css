@@ -420,7 +420,6 @@ Main
 
 .linear{
     background: linear-gradient(90deg, #00A8B9 0%, #04D0BD 100%);
-    height: 700px;
 }
 
 .row_3{
@@ -471,6 +470,10 @@ Main
     border-right: 1px solid white;
     border-left: 1px solid white;
 }   
+
+.bot_row .square{
+    margin-bottom: 90px;
+}
 
 .square h2{
     font-size: 2.5rem;
@@ -580,12 +583,54 @@ p.small{
     margin-left: 200px;
 }
 
-
 /*********
 Footer
 *********/
 
 #site_footer{
-    height: 620px;
+    background-color:#33475B;
+    color: #F4F9FD;
+    height: 700px;
+}
+
+.col_4{
+    width: 25%;
+    float: left;
+    text-align: left;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 20px;
+}
+
+.col_4 h4{
+    padding: 35px 0 25px 0;
+    font-size: 1.2rem;
+}
+
+.col_4 ul{
+    margin-bottom: 20px;
+}
+
+.col_4 ul li{
+    list-style: none;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.col_4 ul li a{
+    color: #F4F9FD;
+}
+
+.btn_white{
     background-color: #F4F9FD;
+    color: #33475B;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid #F4F9FD;
+}
+
+.btn_white:hover{
+    color: #F4F9FD;
+    background-color: #33475B;
+    border: 1px solid #FFF4EE;
 }
