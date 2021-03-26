@@ -486,6 +486,52 @@ Main
     font-size: 12px;
     line-height: 50px;
 }
+
+/* Start growing section */
+
+.start_growing{
+    height: 720px;
+    background-color: white;
+}
+
+.number, .logos{
+    float: left;
+    height: 270px;
+}
+
+.number{
+    width: 40%;
+    padding-top: 60px;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.number h2{
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.number p{
+    font-size: 14px;
+    line-height: 24px;
+    padding-right: 200px;
+}
+.logos{
+    width: 60%;
+}
+.top_logos, .bot_logos{
+    padding-left: 40px;
+}
+
+.logos .top_logos img, .bot_logos img{
+    width: 120px;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.logos .top_logos img{
+    margin: 80px 0 20px 0;
+}
 /*********
 Footer
 *********/
