@@ -634,3 +634,13 @@ Footer
     background-color: #33475B;
     border: 1px solid #FFF4EE;
 }
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding-right: 15px;
+}
