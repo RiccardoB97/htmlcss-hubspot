@@ -199,7 +199,7 @@ header{
 
 .resources_menu{
     min-width: 800px;
-    right: 0;
+    right: -180px;
 }
 
 .resources_menu .row_3{
@@ -227,6 +227,10 @@ header{
     font-size: 0.9rem;
 }
 
+
+.resources_menu .small_square{
+    right: 180px;
+}
 
 
 
