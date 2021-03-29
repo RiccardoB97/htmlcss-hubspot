@@ -100,6 +100,18 @@ body a{
     display: block;
 }
 
+.small_square{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    float: left;
+    background-color: #F4F9FD;
+    transform: rotate(45deg);
+    top: -6px
+}
+
 /*********
 Header 
 *********/
@@ -176,6 +188,11 @@ header{
     list-style: none;
     font-weight: 600;
     font-size: 14px;
+}
+
+.language_menu .small_square {
+    top: -6px;
+    left: 70px;
 }
 
 
@@ -256,11 +273,15 @@ header{
     margin-top: 10px;
 }
 
+.partners_menu .small_square{
+    right: 78px;
+}
+
 /* About dropdown */
 
 .about_menu{
     min-width: 550px;
-    right: 0px;
+    right: -20px;
 }
 
 .about{
@@ -276,6 +297,9 @@ header{
     font-size: 14px;
 }
 
+.about_menu .small_square{
+    right: 18px;
+}
 
 
 /* Jumbotron */
