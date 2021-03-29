@@ -590,7 +590,6 @@ Footer
 #site_footer{
     background-color:#33475B;
     color: #F4F9FD;
-    height: 700px;
 }
 
 .col_4{
@@ -632,7 +631,7 @@ Footer
 .btn_white:hover{
     color: #F4F9FD;
     background-color: #33475B;
-    border: 1px solid #FFF4EE;
+    border: 1px solid #F4F9FD;
 }
 
 .icons{
@@ -643,4 +642,43 @@ Footer
     display: inline-block;
     font-size: 20px;
     padding-right: 15px;
+}
+
+.languages{
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.languages ul li{
+    display: inline-block;
+}
+
+.languages ul li a{
+    color: #F4F9FD;
+    font-size: 14px;
+    padding: 0 10px;
+}
+
+.languages hr{
+    margin: 25px 0;
+}
+
+.copyright, .privacy{
+    width: 50%;
+    float: left;
+}
+
+.copyright{
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.copyright img{
+    height: 30px;
+}
+
+.privacy{
+    text-align: right;
 }
