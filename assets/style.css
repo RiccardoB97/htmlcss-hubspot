@@ -14,6 +14,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #33475B;
     min-width: 1200px;
+    font-size: 14px;
 }
 
 /* Common classes */
@@ -29,6 +30,8 @@ body a{
     text-decoration: none;
     color: #33475B;
 }
+
+/* Utility classes */
 
 .btn{
     border-radius: 5px;
@@ -65,15 +68,29 @@ body a{
     margin-right: 10px;
 }
 
+.btn_white{
+    background-color: #F4F9FD;
+    color: #33475B;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid #F4F9FD;
+}
+
+.btn_white:hover{
+    color: #F4F9FD;
+    background-color: #33475B;
+    border: 1px solid #F4F9FD;
+}
+
 /*********
 Header 
 *********/
 
-header form select{
-    color: #33475B;
-}
 
 /* Top navbar */
+header a{
+    font-size: 14px;
+}
 
 .top_nav, nav{
     height: 80px;
@@ -90,11 +107,6 @@ header form select{
 }
 
 
-
-.globe {
-    color: #33475B;
-}
-
 .nav_col_1, .nav_col_2{
     float: left;
     width: 50%;
@@ -107,10 +119,6 @@ header form select{
 
 .barra{
     padding: 0 10px;
-}
-
-.nav_col_1 a{
-    font-size: 14px;
 }
 
 
@@ -154,7 +162,6 @@ header form select{
 }
 
 .bot_nav_col_2 a{
-    font-size: 14px;
     line-height: 80px;
     padding: 0 10px;
 }
@@ -180,13 +187,10 @@ header form select{
 
 .hero_text h1{
     font-size: 2.7rem;
- 
 }
 
 .hero_text p{
     margin: 50px 0;
-
-    font-size: 14px;
     line-height: 28px;
 }
 
@@ -278,7 +282,7 @@ Main
     padding-top: 60px;
 }
 
-.col_60 p{
+.col_60 p, .three_col p{
     line-height: 20px;
     font-size: 12px;
     margin-top: 40px;
@@ -308,20 +312,7 @@ Main
     list-style: none;
     display: inline-block;
     margin-right: 20px;
-    font-size: 12px;
     margin-top: 20px;
-}
-
-.circle{
-    background-color: #FE775A;
-    padding: 2px;
-    border-radius: 50%;
-    margin-right: 10px;
-    color: white;
-    width: 18px;
-    height: 18px;
-    text-align: center;
-    display: inline-block;
 }
 
 /* Three columns */
@@ -370,7 +361,6 @@ Main
 
 .col_3 p{
     margin-top: 40px;
-    font-size: 14px;
     line-height: 28px;
     padding: 0 30px
 }
@@ -620,19 +610,6 @@ Footer
     color: #F4F9FD;
 }
 
-.btn_white{
-    background-color: #F4F9FD;
-    color: #33475B;
-    text-align: center;
-    padding: 10px 15px;
-    border: 1px solid #F4F9FD;
-}
-
-.btn_white:hover{
-    color: #F4F9FD;
-    background-color: #33475B;
-    border: 1px solid #F4F9FD;
-}
 
 .icons{
     margin-top: 20px;
