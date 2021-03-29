@@ -30,6 +30,9 @@ body a{
     color: #33475B;
 }
 
+
+/* Utilites */
+
 .btn{
     border-radius: 5px;
 }
@@ -63,6 +66,38 @@ body a{
 .fa-check-circle{
     color: #FE775A;
     margin-right: 10px;
+}
+
+/* Dropdown menus */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: left;
+    margin-top: -10px;
+    border: 1px solid #33475bab;
+    z-index: 1;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #33475B;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 /*********
@@ -115,6 +150,30 @@ header form select{
     font-size: 14px;
 }
 
+/* Languages dropdown */
+
+.language_menu{
+    left: -20px;
+    min-width: 100px;
+    max-width: 100px;
+}
+
+.language>ul>li>a{
+    line-height: 28px;
+}
+
+.language{
+    padding: 15px;
+}
+
+.language>ul>li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
 
 /* Right side top navbar */
 .nav_col_2{
@@ -145,6 +204,7 @@ header form select{
     transform: translateY(-50%);
 }
 
+
 .bot_nav_col_1, .bot_nav_col_2{
     width: 50%;
     float: left;
@@ -165,37 +225,6 @@ header form select{
     padding: 0 10px;
 }
 
-/* Dropdown menus */
-.dropdown {
-    position: relative;
-    display: inline-block;
-
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    text-align: left;
-    margin-top: -10px;
-    border: 1px solid #33475bab;
-    z-index: 1;
-    text-align: left;
-    border-radius: 5px;
-}
-
-.dropdown-content a {
-    color: #33475B;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 /* Partners dropdown */
 
