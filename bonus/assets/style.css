@@ -195,6 +195,38 @@ header{
     left: 70px;
 }
 
+/* Resources dropdown */
+
+.resources_menu{
+    min-width: 800px;
+    right: 0;
+}
+
+.resources_menu .row_3{
+    height: 33.3%;
+    width: 100%;
+    float: left;
+}
+
+.resources_menu hr{
+    color: #33475B;
+    width: 95%;
+    margin: auto;
+}
+
+
+.resources_menu .col_3{
+    width: 33.3%;
+    text-align: left;
+    padding: 30px;
+    float: left;
+}
+
+.resources_menu .col_3 a{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
 
 
 
@@ -267,10 +299,11 @@ header{
     font-weight: 600;
 }
 
-.partner p{
+.partner p, .resources_menu p{
     font-size: 12px;
     line-height: 20px;
     margin-top: 10px;
+    color: #33475B;
 }
 
 .partners_menu .small_square{
@@ -473,7 +506,7 @@ Main
     margin: 45px 0
 }
 
-.col_3{
+main .col_3{
     height: 660px;
     width: 30%;
     float: left;
@@ -490,13 +523,13 @@ Main
     margin: 20px 0;
 }
 
-.col_3.left{
+main .col_3.left{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 3px 3px #ebf0f6;
 }
 
-.col_3.mid{
+main .col_3.mid{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 3px 3px #ebf0f6;
@@ -504,20 +537,20 @@ Main
    
 }
 
-.col_3.right{
+main .col_3.right{
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 3px 3px #ebf0f6;
 }
 
-.col_3 p{
+main .col_3 p{
     margin-top: 40px;
     font-size: 14px;
     line-height: 28px;
     padding: 0 30px
 }
 
-.col_3 p::after{
+main .col_3 p::after{
     content: "";
     width: 250px;
     height: 2px;
