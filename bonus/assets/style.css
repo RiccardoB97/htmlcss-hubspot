@@ -104,9 +104,10 @@ body a{
 Header 
 *********/
 
-header form select{
-    color: #33475B;
+header{
+    position: relative;
 }
+
 
 
 
@@ -120,6 +121,11 @@ header form select{
 
 .top_nav{
     border-bottom: 1px solid #33475B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
 }
 
 .top_nav a{
@@ -196,6 +202,7 @@ header form select{
     height: 80px;
     background-color: white;
     position: relative;
+    margin-top: 80px;
 }
 
 .bot_nav .logo{
