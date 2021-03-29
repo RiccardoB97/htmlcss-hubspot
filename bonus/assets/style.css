@@ -73,6 +73,8 @@ header form select{
     color: #33475B;
 }
 
+
+
 /* Top navbar */
 
 .top_nav, nav{
@@ -153,12 +155,69 @@ header form select{
     text-align: right;
 }
 
-.bot_nav_col_2 a{
+.bot_nav_col_2 ul li{
+    display: inline-block;
+}
+
+.bot_nav_col_2 ul li>a{
     font-size: 14px;
     line-height: 80px;
     padding: 0 10px;
 }
 
+/* Dropdown menus */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: left;
+    margin-top: -10px;
+    border: 1px solid #33475B;
+    right: -80px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: #33475B;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Partners dropdown */
+
+.partners_menu{
+    min-width: 700px;   
+}
+
+.partner{
+    width: 50%;
+    float: left;
+    padding: 30px;
+}
+
+.partner a{
+    font-weight: 600;
+}
+
+.partner p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 10px;
+}
 
 /* Jumbotron */
 
