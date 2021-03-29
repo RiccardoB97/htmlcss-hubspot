@@ -155,11 +155,11 @@ header form select{
     text-align: right;
 }
 
-.bot_nav_col_2 ul li{
+.bot_nav_col_2>ul>li{
     display: inline-block;
 }
 
-.bot_nav_col_2 ul li>a{
+.bot_nav_col_2>ul>li>a{
     font-size: 14px;
     line-height: 80px;
     padding: 0 10px;
@@ -179,10 +179,10 @@ header form select{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     text-align: left;
     margin-top: -10px;
-    border: 1px solid #33475B;
-    right: -80px;
+    border: 1px solid #33475bab;
     z-index: 1;
     text-align: left;
+    border-radius: 5px;
 }
 
 .dropdown-content a {
@@ -201,6 +201,7 @@ header form select{
 
 .partners_menu{
     min-width: 700px;   
+    right: -80px;
 }
 
 .partner{
@@ -209,7 +210,7 @@ header form select{
     padding: 30px;
 }
 
-.partner a{
+.partner a, .about a.title{
     font-weight: 600;
 }
 
@@ -218,6 +219,28 @@ header form select{
     line-height: 20px;
     margin-top: 10px;
 }
+
+/* About dropdown */
+
+.about_menu{
+    min-width: 550px;
+    right: 0px;
+}
+
+.about{
+    width: 33.3%;
+    float: left;
+    padding: 30px;
+}
+
+.about ul li{
+    list-style: none;
+    line-height: 30px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
 
 /* Jumbotron */
 
