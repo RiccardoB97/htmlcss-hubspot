@@ -75,6 +75,8 @@ body a{
 
 }
 
+/* Creates dropdown content without displaying */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -96,10 +98,13 @@ body a{
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
+/* Shows the dorpdown content when hovering */
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
+/* Small pointing triangle on top of dropdown content */
 .small_square{
     position: absolute;
     width: 10px;
@@ -145,11 +150,6 @@ header{
 }
 
 
-
-.globe {
-    color: #33475B;
-}
-
 .nav_col_1, .nav_col_2{
     float: left;
     width: 50%;
@@ -194,45 +194,6 @@ header{
     top: -6px;
     left: 70px;
 }
-
-
-/* Resources dropdown */
-
-.resources_menu{
-    min-width: 800px;
-    right: -180px;
-}
-
-.resources_menu .row_3{
-    height: 33.3%;
-    width: 100%;
-    float: left;
-}
-
-.resources_menu hr{
-    color: #33475B;
-    width: 95%;
-    margin: auto;
-}
-
-
-.resources_menu .col_3{
-    width: 33.3%;
-    text-align: left;
-    padding: 30px;
-    float: left;
-}
-
-.resources_menu .col_3 a{
-    font-weight: 600;
-    font-size: 0.9rem;
-}
-
-
-.resources_menu .small_square{
-    right: 180px;
-}
-
 
 
 /* Right side top navbar */
@@ -827,20 +788,6 @@ p.small{
 .big_pic img{
     height: 360px;
     margin-left: 200px;
-}
-
-
-.chat{
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 50%;
-    background-image: url("../assets/img/launcher-open-icon.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: #33475B;
 }
 
 
