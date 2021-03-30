@@ -82,10 +82,10 @@ body a{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     text-align: left;
     margin-top: -10px;
-    border: 1px solid #33475bab;
+    border: 1px solid #4e7ca9ab;
     z-index: 1;
     text-align: left;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 .dropdown-content a {
@@ -104,8 +104,8 @@ body a{
     position: absolute;
     width: 10px;
     height: 10px;
-    border-top: 1px solid;
-    border-left: 1px solid;
+    border-top: 1px solid #4e7ca9ab;
+    border-left: 1px solid #4e7ca9ab;
     float: left;
     background-color: #F4F9FD;
     transform: rotate(45deg);
@@ -286,6 +286,72 @@ header{
     padding: 0 10px;
 }
 
+/* Software dropdown */
+
+.row_6{
+    padding: 10px;
+}
+
+
+.software_menu{
+    min-width: 470px;
+    left: -10px;
+}
+
+.software_logo, .software_text{
+    float: left;
+}
+
+.software_logo{
+    width: 15%;
+    text-align: center;
+}
+
+.software_logo img {
+    padding: 10px;
+}
+
+.software_text{
+    width: 85%;
+}
+
+.software_text>a{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.software_text p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #33475B;
+}
+
+.software_menu hr{
+    width: 90%;
+    margin: auto;
+}
+
+.software_menu .small_square{
+    left: 90px;
+}
+
+.software_menu .hub,.software_menu .new{
+    display: inline-block;
+}
+
+.software_menu .new{
+    font-size: 10px;
+    background: linear-gradient(90deg, #00A8B9 0%, #04D0BD 100%);
+    padding: 2px 6px;
+    border-radius: 2px;
+    color: white;
+    vertical-align: middle;
+}
+
+.software_text.app{
+    padding: 0 0 30px 30px;
+}
+
 
 /* Partners dropdown */
 
@@ -300,7 +366,7 @@ header{
     padding: 30px;
 }
 
-.partner a, .about a.title{
+.partner a, .about a.title, .software_text a {
     font-weight: 600;
 }
 
