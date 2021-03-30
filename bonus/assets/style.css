@@ -196,6 +196,7 @@ header{
 }
 
 
+
 /* Right side top navbar */
 .nav_col_2{
     text-align: right;
@@ -312,6 +313,46 @@ header{
 .software_text.app{
     padding: 0 0 30px 30px;
 }
+
+
+/* Resources dropdown */
+
+.resources_menu{
+    min-width: 800px;
+    right: -180px;
+}
+
+.resources_menu .row_3{
+    height: 33.3%;
+    width: 100%;
+    float: left;
+}
+
+.resources_menu hr{
+    color: #33475B;
+    width: 95%;
+    margin: auto;
+}
+
+/* Divides the menu in 3 columns of the same width */
+
+.resources_menu .col_3{
+    width: 33.3%;
+    text-align: left;
+    padding: 30px;
+    float: left;
+}
+
+.resources_menu .col_3 a{
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+.resources_menu .small_square{
+    right: 180px;
+}
+
 
 
 /* Partners dropdown */
